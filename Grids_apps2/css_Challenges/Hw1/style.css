@@ -1,0 +1,32 @@
+.container {
+    position: sticky;
+    top: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: rgb(31, 136, 11);
+  padding: 2rem;
+  font-size: 2rem;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+    text-decoration: none;
+}
+a:focus-visible{
+    outline: 4px red solid;
+    outline-offset: 5px;
+
+}
+ @media (max-width: 768px) {
+  .container {
+    font-size: 2rem;
+    flex-direction: column  ;
+    gap: 10px;
+    align-items: center;
+  } 
+}

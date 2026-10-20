@@ -1,0 +1,37 @@
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(450px,1fr);
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  border: red 5px solid;
+
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  align-self: center;
+  width: 200px;
+  height: 150px;
+}
+
+.details {
+  margin-top: auto;
+  gap: 10px;
+}
+
+.details button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.details b {
+  font-size: 18px;
+}
